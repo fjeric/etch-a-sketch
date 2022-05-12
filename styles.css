@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-style: solid;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.50) 0px 3px 8px;
+}
+
+
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 30px;
+    
+}
+
+.options {
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 150px;
+}
+
+body {
+    background-color: #2b2d2f;
+}
+
+h1 {
+    text-align: center;
+    color: #F5F5F5;
+    font-size: 50px;
+}
